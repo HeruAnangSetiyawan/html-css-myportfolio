@@ -402,3 +402,52 @@ body {
     grid-template-rows: repeat(4, auto);
   }
 }
+
+@media (max-width: 493px) {
+  .profile__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .profile__details .intro h2,
+  .profile__details .intro h4 {
+    text-align: center;
+  }
+
+  .profile__details .intro .social {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .profile__details .intro .social i {
+    padding: 16px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile__card .contact__info {
+    width: 125%;
+  }
+
+  .download__btn {
+    display: flex;
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .navbar {
+    width: 70%;
+  }
+
+  .navbar .navbar__link {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+  }
+}
