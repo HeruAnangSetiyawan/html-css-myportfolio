@@ -496,7 +496,7 @@ body {
   }
 
   .navbar {
-    width: 70%;
+    width: 80%;
   }
 
   .navbar .navbar__link {
@@ -508,7 +508,7 @@ body {
   }
 
   .contact__container {
-    width: 75%;
+    width: 80%;
   }
 
   .contact__container h1::after {
@@ -521,9 +521,8 @@ body {
     min-width: 200px;
   }
 
-  .email__detail p {
-    margin-right: 20px;
-    position: relative;
-    display: block;
+  .email__detail p,
+  .contact__number p {
+    font-size: 12px;
   }
 }
