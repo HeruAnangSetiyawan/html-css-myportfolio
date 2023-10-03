@@ -244,7 +244,7 @@ body {
 
 .resume {
   background-color: #fff;
-  width: 800px;
+  max-width: 800px;
   padding: 2rem 3rem;
   border-radius: 20px;
   box-shadow: var(--box-shadow);
@@ -371,7 +371,6 @@ body {
   }
 
   .resume {
-    width: 1005;
     max-width: 400px;
     padding: 1rem;
     margin: 1rem;
